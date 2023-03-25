@@ -1,3 +1,14 @@
 body {
-    background-image: url("website.jpg");
+    background-image: div.opening;
+    
+}
+
+#backgroundMain {
+max-width: 100%;
+height: auto;
+}
+
+#backgroundClick {
+    max-width: 100%;
+    height: auto;
 }
