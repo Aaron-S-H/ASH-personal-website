@@ -7,6 +7,14 @@ console.log(input);
 
 
 
-h1.addEventListener('click', function() {
+function idToggle() {
+  h1.addEventListener('click', function() {
   input.id = 'clicked'
 });
+}
+
+
+
+if (input.id === 'backgroundMain') {
+  idToggle();
+}
