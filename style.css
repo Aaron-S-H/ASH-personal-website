@@ -1,14 +1,14 @@
 #backgroundMain {
-max-width: 100%;
-height: auto;
+    background-image: url(photos/websiteEnlarged.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-#backgroundClick {
-    max-width: 100%;
-    height: auto;
+#clicked {
+    background-image: url(photos/inverted.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-p {
-    color: aqua;
-    font-size: 250px;
-}

@@ -1,7 +1,12 @@
 const h1 = document.getElementsByTagName("h1")[0];
-h1.remove();
+//h1.remove();
 
-const input = document.getElementById('backgroundMain');
-input.addEventListener('click', function() {
-  alert('I was clicked!');
+const input = document.body;
+
+console.log(input);
+
+
+
+h1.addEventListener('click', function() {
+  input.id = 'clicked';
 });
