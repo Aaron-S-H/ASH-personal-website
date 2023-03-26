@@ -8,5 +8,5 @@ console.log(input);
 
 
 h1.addEventListener('click', function() {
-  input.id = 'clicked';
+  input.id = 'clicked'
 });

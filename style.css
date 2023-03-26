@@ -1,14 +1,44 @@
 #backgroundMain {
     background-image: url(photos/websiteEnlarged.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
 }
 
 #clicked {
     background-image: url(photos/inverted.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+h1 {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+}
+
+h3 {
+    position: absolute;
+    color: white;
+    opacity: 35%;
+    font-size: 75px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 2300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
