@@ -1,8 +1,3 @@
-body {
-    background-image: div.opening;
-    
-}
-
 #backgroundMain {
 max-width: 100%;
 height: auto;
@@ -11,4 +6,9 @@ height: auto;
 #backgroundClick {
     max-width: 100%;
     height: auto;
+}
+
+p {
+    color: aqua;
+    font-size: 250px;
 }
