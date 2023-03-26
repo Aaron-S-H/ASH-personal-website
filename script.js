@@ -7,6 +7,7 @@ console.log(input);
 
 
 
+
 function idToggle() {
   h1.addEventListener('click', function() {
   input.id = 'clicked'
