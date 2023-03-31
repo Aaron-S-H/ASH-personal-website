@@ -1,21 +1,13 @@
-const h1 = document.getElementsByTagName("h1")[0];
-//h1.remove();
 
-const input = document.body;
+const header = document.getElementById('myName');
 
-console.log(input);
+const body = document.body;
 
-
-
-
-function idToggle() {
-  h1.addEventListener('click', function() {
-  input.id = 'clicked'
-});
-}
-
-
-
-if (input.id === 'backgroundMain') {
-  idToggle();
-}
+header.addEventListener('click', function() {
+  //console.log('I have been clicked!');
+  if (body.id === 'backgroundMain') {
+    body.id = 'clicked'
+  } else { 
+    body.id = 'backgroundMain'
+  }
+})
