@@ -1,5 +1,5 @@
 #backgroundMain {
-    background-image: url(photos/websiteEnlarged.jpg);
+    background-image: url(photos/opening.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -10,7 +10,7 @@
 }
 
 #clicked {
-    background-image: url(photos/inverted.jpg);
+    background-image: url(photos/clicked.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -22,9 +22,9 @@
 
 h1 {
     text-align: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-size: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
 
@@ -38,10 +38,10 @@ h3 {
     position: absolute;
     color: rgba(249, 245, 245, 0.961);
     opacity: 75%;
-    font-size: 25px;
+    font-size: 75px;
     text-align: left;
-    margin-left: 25px;
-    bottom: 50px;
+    margin-left: 150px;
+    bottom: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
 }
